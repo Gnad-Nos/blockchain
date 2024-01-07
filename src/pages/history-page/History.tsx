@@ -1,9 +1,11 @@
+import Rating from "../../components/rating/Rating";
+
 function History() {
   return (
     <div className="flex bg-white">
       {/* left */}
       <div className="w-1/6">
-        <div className="h-screen py-8 bg-slate-50 shadow flex-col justify-between items-start inline-flex">
+        <div className="h-[1000px] py-8 bg-slate-50 shadow flex-col justify-between items-start inline-flex">
           <div className="h-[565px] flex-col justify-start items-center gap-8 flex">
             <div className="pr-16 justify-start items-center gap-2 inline-flex">
               <div className="w-8 h-8 relative">
@@ -133,7 +135,7 @@ function History() {
       </div>
       {/* right */}
       <div className="w-5/6">
-        <div className="h-[114px] relative bg-white shadow-inner">
+        <div className="h-[114px] relative bg-white shadow-inner border-b-[1px]">
           <div className="left-[32px] top-[38px] absolute text-slate-800 text-[32px] font-semibold font-['Clash Display Variable'] leading-[38.40px]">
             My Profile
           </div>
@@ -151,6 +153,59 @@ function History() {
             </div>
           </div>
         </div>
+
+        {/* Rate ***** */}
+        <div className="w-[1168px] text-black ml-8 mt-3">
+          <div className="text-4xl ">My Total Rating</div>
+          <div className="flex items-center mt-4">
+            <svg
+              className="w-10 h-10 text-yellow-300 ms-1"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              viewBox="0 0 22 20"
+            >
+              <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+            </svg>
+            <svg
+              className="w-10 h-10 text-yellow-300 ms-1"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              viewBox="0 0 22 20"
+            >
+              <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+            </svg>
+            <svg
+              className="w-10 h-10 text-yellow-300 ms-1"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              viewBox="0 0 22 20"
+            >
+              <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+            </svg>
+            <svg
+              className="w-10 h-10 text-yellow-300 ms-1"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              viewBox="0 0 22 20"
+            >
+              <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+            </svg>
+            <svg
+              className="w-10 h-10 ms-1 text-gray-300 dark:text-gray-500"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              viewBox="0 0 22 20"
+            >
+              <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+            </svg>
+          </div>
+        </div>
+        {/* History */}
         <div className="w-[1168px] h-[775px] pt-8 flex-col justify-start items-center gap-6 inline-flex">
           <div className="w-[1168px] pl-8 py-3 bg-white shadow-inner justify-start items-start gap-8 inline-flex">
             <div className="w-[78px] flex-col justify-start items-center gap-[7px] inline-flex">
@@ -195,10 +250,10 @@ function History() {
               </div>
             </div> */}
           </div>
-          <div className="py-6 bg-white flex-col justify-center items-center gap-6 flex">
+          <div className="pb-6 bg-white flex-col justify-center items-center gap-6 flex">
             <div className="justify-start items-center gap-[624px] inline-flex">
               <div className="text-slate-800 text-xl font-semibold font-['Epilogue'] leading-normal">
-                Applications History
+                History
               </div>
               <div className="justify-start items-start gap-2 flex">
                 <div className="px-4 py-3 bg-white border border-zinc-200 justify-center items-center gap-2 flex">
@@ -220,24 +275,27 @@ function History() {
               </div>
             </div>
             <div className="shadow-inner flex-col justify-start items-start flex">
-              <div className="w-[1102px] pl-6 pb-6 bg-white shadow-inner justify-start items-center inline-flex">
+              <div className="w-[1150px] pl-6 pb-6 bg-white shadow-inner justify-start items-center inline-flex">
                 <div className="w-14 opacity-50 text-gray-800 text-base font-medium font-['Inter'] leading-relaxed">
                   #
                 </div>
                 <div className="w-[221px] opacity-50 text-gray-800 text-base font-medium font-['Inter'] leading-relaxed">
                   Employee Name
                 </div>
-                <div className="w-[275px] opacity-50 text-gray-800 text-base font-medium font-['Inter'] leading-relaxed">
-                  Roles
+                <div className="w-[260px] opacity-50 text-gray-800 text-base font-medium font-['Inter'] leading-relaxed">
+                  Job Roles
                 </div>
                 <div className="w-[194px] opacity-50 text-gray-800 text-base font-medium font-['Inter'] leading-relaxed">
                   Date Applied
                 </div>
-                <div className="opacity-50 text-gray-800 text-base font-medium font-['Inter'] leading-relaxed">
+                <div className="w-[250px] opacity-50 text-gray-800 text-base font-medium font-['Inter'] leading-relaxed">
                   Status
                 </div>
+                <div className="opacity-50 text-gray-800 text-base font-medium font-['Inter'] leading-relaxed">
+                  Rating
+                </div>
               </div>
-              <div className="w-[1104px] p-6 bg-white justify-start items-center inline-flex">
+              <div className="w-[1150px] p-6 bg-white justify-start items-center inline-flex">
                 <div className="w-14 text-slate-800 text-base font-normal font-['Inter'] leading-relaxed">
                   1
                 </div>
@@ -266,9 +324,12 @@ function History() {
                     </div>
                   </div>
                 </div>
+                <div className="w-[110px]">
+                  <Rating/>
+                </div>
                 <div className="w-6 h-6 relative" />
               </div>
-              <div className="w-[1104px] p-6 bg-slate-50 justify-start items-center inline-flex">
+              <div className="w-[1150px] p-6 bg-slate-50 justify-start items-center inline-flex">
                 <div className="w-14 text-slate-800 text-base font-normal font-['Inter'] leading-relaxed">
                   2
                 </div>
@@ -297,9 +358,12 @@ function History() {
                     </div>
                   </div>
                 </div>
+                <div className="w-[110px]">
+                  <Rating/>
+                </div>
                 <div className="w-6 h-6 relative" />
               </div>
-              <div className="w-[1104px] p-6 bg-white justify-start items-center inline-flex">
+              <div className="w-[1150px] p-6 bg-white justify-start items-center inline-flex">
                 <div className="w-14 text-slate-800 text-base font-normal font-['Inter'] leading-relaxed">
                   3
                 </div>
@@ -328,9 +392,12 @@ function History() {
                     </div>
                   </div>
                 </div>
+                <div className="w-[110px]">
+                  <Rating/>
+                </div>
                 <div className="w-6 h-6 relative" />
               </div>
-              <div className="w-[1104px] p-6 bg-slate-50 justify-start items-center inline-flex">
+              <div className="w-[1150px] p-6 bg-slate-50 justify-start items-center inline-flex">
                 <div className="w-14 text-slate-800 text-base font-normal font-['Inter'] leading-relaxed">
                   4
                 </div>
@@ -359,9 +426,12 @@ function History() {
                     </div>
                   </div>
                 </div>
+                <div className="w-[110px]">
+                  <Rating/>
+                </div>
                 <div className="w-6 h-6 relative" />
               </div>
-              <div className="w-[1104px] p-6 bg-white justify-start items-center inline-flex">
+              <div className="w-[1150px] p-6 bg-white justify-start items-center inline-flex">
                 <div className="w-14 text-slate-800 text-base font-normal font-['Inter'] leading-relaxed">
                   5
                 </div>
@@ -389,6 +459,9 @@ function History() {
                       Unsuitable
                     </div>
                   </div>
+                </div>
+                <div className="w-[110px]">
+                  <Rating/>
                 </div>
                 <div className="w-6 h-6 relative" />
               </div>
