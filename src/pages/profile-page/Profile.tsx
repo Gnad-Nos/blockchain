@@ -16,54 +16,17 @@ function Profile() {
             </div>
             <div className="self-stretch h-[497px] flex-col justify-center items-start gap-8 flex">
               <div className="flex-col justify-start items-start flex">
-                <div className="w-64 pl-8 pr-4 py-3 justify-start items-center gap-4 inline-flex">
-                  <div className="w-6 h-6 relative" />
-                  <div className="grow shrink basis-0 h-6 text-slate-500 text-base font-medium font-['Inter'] leading-relaxed">
-                    Dashboard
-                  </div>
-                </div>
-                <div className="w-[272px] px-8 py-3 justify-start items-center gap-4 inline-flex">
-                  <div className="justify-start items-start gap-4 flex">
-                    <div className="w-6 h-6 relative" />
-                    <div className="w-32 h-6 text-slate-500 text-base font-medium font-['Inter'] leading-relaxed">
-                      Messages
-                    </div>
-                  </div>
-                  <div className="w-6 h-6 relative">
-                    <div className="w-6 h-6 left-0 top-0 absolute bg-indigo-600 rounded-full" />
-                    <div className="w-1.5 h-4 left-[9px] top-[5px] absolute text-white text-sm font-semibold font-['Epilogue'] leading-snug">
-                      1
-                    </div>
-                  </div>
-                </div>
                 <div className="w-[272px] pl-8 pr-4 py-3 justify-start items-center gap-4 inline-flex">
-                  <div className="w-6 h-6 relative">
-                    <div className="w-2 h-0.5 left-[8px] top-[11px] absolute bg-slate-500 rounded-[20px]" />
-                    <div className="w-2 h-0.5 left-[8px] top-[15px] absolute bg-slate-500 rounded-[20px]" />
-                  </div>
-                  <div className="grow shrink basis-0 h-6 text-slate-500 text-base font-medium font-['Inter'] leading-relaxed">
-                    My Applications
-                  </div>
+                  <a
+                    href="/history"
+                    className="grow shrink basis-0 h-6 text-slate-500 text-base font-medium font-['Inter'] leading-relaxed"
+                  >
+                    History
+                  </a>
                 </div>
-                <div className="w-[272px] pl-8 pr-4 py-3 justify-start items-center gap-4 inline-flex">
-                  <div className="w-6 h-6 relative">
-                    <div className="w-[18.76px] h-[19.22px] left-[2.78px] top-[2.78px] absolute">
-                      <div className="w-[17.98px] h-[17.98px] left-0 top-0 absolute rounded-full border-2 border-slate-500" />
-                    </div>
-                  </div>
-                  <div className="grow shrink basis-0 h-6 text-slate-500 text-base font-medium font-['Inter'] leading-relaxed">
-                    Find Jobs
-                  </div>
-                </div>
-                <div className="w-[272px] pl-8 pr-4 py-3 justify-start items-center gap-4 inline-flex">
-                  <div className="w-6 h-6 relative" />
-                  <div className="grow shrink basis-0 h-6 text-slate-500 text-base font-medium font-['Inter'] leading-relaxed">
-                    Browse Companies
-                  </div>
-                </div>
-                <div className="justify-center items-center gap-3 inline-flex">
-                  <div className="h-12 pl-4 py-3 bg-violet-100 justify-start items-start gap-4 flex">
-                    <div className="w-6 h-6 relative" />
+
+                <div className="w-full justify-center items-center gap-3 inline-flex">
+                  <div className="w-full h-12 pl-8 py-3 bg-violet-100 justify-start items-start gap-4 flex">
                     <div className="grow shrink basis-0 h-6 text-indigo-600 text-base font-medium font-['Inter'] leading-relaxed">
                       My Public Profile
                     </div>
@@ -79,16 +42,12 @@ function Profile() {
                 </div>
                 <div className="self-stretch h-24 flex-col justify-start items-start flex">
                   <div className="self-stretch pl-8 pr-4 py-3 justify-start items-center gap-4 inline-flex">
-                    <div className="w-6 h-6 relative" />
-                    <div className="grow shrink basis-0 h-6 text-slate-500 text-base font-medium font-['Inter'] leading-relaxed">
+                    <a
+                      href="/setting"
+                      className="grow shrink basis-0 h-6 text-slate-500 text-base font-medium font-['Inter'] leading-relaxed"
+                    >
                       Settings
-                    </div>
-                  </div>
-                  <div className="self-stretch pl-8 pr-4 py-3 justify-start items-center gap-4 inline-flex">
-                    <div className="w-6 h-6 relative" />
-                    <div className="grow shrink basis-0 h-6 text-slate-500 text-base font-medium font-['Inter'] leading-relaxed">
-                      Help Center
-                    </div>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -471,7 +430,6 @@ function Profile() {
                     Planna - Project Management App
                   </div>
                 </div>
-                
               </div>
               <div className="w-[682px] h-[5px] relative">
                 <div className="w-[682px] h-1 left-0 top-[0.50px] absolute bg-violet-100" />

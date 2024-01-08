@@ -37,13 +37,9 @@ function Setting() {
                   </div>
                 </div> */}
                 <div className="w-[272px] pl-8 pr-4 py-3  justify-start items-center gap-4 inline-flex">
-                  <div className="w-6 h-6 relative">
-                    <div className="w-2 h-0.5 left-[8px] top-[11px] absolute bg-slate-500 rounded-[20px]" />
-                    <div className="w-2 h-0.5 left-[8px] top-[15px] absolute bg-slate-500 rounded-[20px]" />
-                  </div>
-                  <div className="grow shrink basis-0 h-6 text-slate-500 text-base font-medium font-['Inter'] leading-relaxed">
-                    My Applications
-                  </div>
+                  <a href="/history" className="grow shrink basis-0 h-6 text-slate-500 text-base font-medium font-['Inter'] leading-relaxed">
+                    History
+                  </a>
                 </div>
                 {/* <div className="w-[272px] pl-8 pr-4 py-3 justify-start items-center gap-4 inline-flex">
                   <div className="w-6 h-6 relative">
@@ -62,11 +58,10 @@ function Setting() {
                   </div>
                 </div> */}
                 <div className="justify-center items-center gap-3 inline-flex">
-                  <div className="h-12 pl-4 py-3 justify-start items-start gap-4 flex">
-                    <div className="w-6 h-6 relative" />
-                    <div className="grow shrink basis-0 h-6 text-slate-500 text-base font-medium font-['Inter'] leading-relaxed">
+                  <div className="h-12 pl-8 py-3 justify-start items-start gap-4 flex">
+                    <a href="/profile" className="grow shrink basis-0 h-6 text-slate-500 text-base font-medium font-['Inter'] leading-relaxed">
                       My Public Profile
-                    </div>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -79,15 +74,8 @@ function Setting() {
                 </div>
                 <div className="self-stretch h-24 flex-col justify-start items-start flex">
                   <div className="self-stretch pl-8 pr-4 py-3 bg-violet-100 justify-start items-center gap-4 inline-flex">
-                    <div className="w-6 h-6 relative" />
                     <div className="grow shrink basis-0 h-6 text-indigo-600 text-base font-medium font-['Inter'] leading-relaxed">
                       Settings
-                    </div>
-                  </div>
-                  <div className="self-stretch pl-8 pr-4 py-3 justify-start items-center gap-4 inline-flex">
-                    <div className="w-6 h-6 relative" />
-                    <div className="grow shrink basis-0 h-6 text-slate-500 text-base font-medium font-['Inter'] leading-relaxed">
-                      Help Center
                     </div>
                   </div>
                 </div>
