@@ -6,6 +6,8 @@ import Login from "../pages/login-page/Login";
 import Register from "../pages/register-page/Register";
 import Profile from "../pages/profile-page/Profile";
 import History from "../pages/history-page/History";
+import Setting from "../pages/setting/Setting";
+import HistoryHire from "../pages/history-page/HistoryHire";
 
 export const router = createBrowserRouter([
   {
@@ -40,5 +42,15 @@ export const router = createBrowserRouter([
   {
     path: "/history",
     element: <History/>,
+  },
+
+  {
+    path: "/setting",
+    element: <Setting/>,
+  },
+
+  {
+    path: "/historyhire",
+    element: <HistoryHire/>,
   },
 ]);
